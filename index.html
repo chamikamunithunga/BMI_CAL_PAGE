@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>BMI_CAL_PAGE</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <h1>Fitness Zone</h1> 
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Account</a></li>
+    </ul>
+  </nav>
+  
+
+  <div class="main-content">
+
+    <section class="intro">
+      <h2>BMI Calculator Overview</h2>
+      <p>Welcome to the BMI Calculator Page! <br> Use this tool to calculate your Body Mass Index and get personalized health insights tailored for your fitness journey. Monitoring your BMI can help you track your progress and adjust your fitness plans effectively.</p>
+      <br>
+
+      <h3>Why Use Our BMI Calculator?</h3>
+      <br>
+      <p>Tailored for Fitness Goals: Unlike generic BMI calculators, ours is crafted with gym-goers in mind. <br> It helps you track changes in body composition over time, providing insights into how your workouts and nutrition are affecting your overall health.
+
+         <br>Track Progress: Monitoring your BMI can be a motivating way to see progress, especially when you’re engaged in a fitness regimen.  <br>Our calculator helps you measure how effective your workout and diet plans are by showing changes in your BMI.
+        
+        <br>Customizable for Fitness Levels: The calculator can accommodate various fitness levels, from beginners to advanced athletes. <br> It helps you understand how different levels of muscle mass and body fat impact your BMI.</p>
+    </section>
+
+    <div class="container">
+      <div class="box">
+        <h1>BMI Calculator</h1>
+        <div class="content">
+          <div class="input">
+            <label for="height">Height(cm)</label>
+            <input id="height" />
+          </div>
+          <div class="input">
+            <label for="weight">Weight(kg)</label>
+            <input id="weight" />
+          </div>
+          <button id="calculate">Calculate Your BMI</button>
+        </div>
+        <div class="result">
+          <p>Your BMI is </p>
+          <div id="result">00.00</div>
+          <p id="comment"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js" type="module"></script>
+</body>
+</html>
