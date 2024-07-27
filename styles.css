@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
 
+/* Global Styles */
 * {
   padding: 0;
   margin: 0;
@@ -14,9 +15,9 @@ body {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  overflow: hidden;
 }
 
+/* Navbar Styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -50,6 +51,7 @@ body {
   color: #00d8fe;
 }
 
+/* Main Content Styles */
 .main-content {
   display: flex;
   justify-content: space-between;
@@ -72,8 +74,7 @@ body {
 .container {
   width: 40%;
   padding: 20px;
-  height:50%;
-  
+  height: 50%;
 }
 
 .box {
@@ -83,7 +84,6 @@ body {
   position: relative;
   padding: 20px;
 }
-
 
 h1 {
   font-weight: bold;
@@ -96,6 +96,7 @@ h1 {
   padding: 0;
 }
 
+/* Input Styles */
 .input {
   background: #00d8fe79;
   box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
@@ -121,6 +122,7 @@ h1 {
   font-size: 18px;
 }
 
+/* Button Styles */
 button#calculate {
   font-family: 'Nunito', sans-serif;
   color: #000000;
@@ -138,6 +140,7 @@ button#calculate:hover {
   background: #997406;
 }
 
+/* Result Styles */
 .result {
   padding: 20px 10px;
 }
