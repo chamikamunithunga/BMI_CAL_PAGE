@@ -9,7 +9,7 @@ User-Friendly Interface: Simple and intuitive layout for easy use.
 Technologies Used
 HTML: For the structure of the web page.
 CSS: For styling and responsive design.
-JavaScript: For the BMI calculation logic.
+JavaScript: For the BMI calculation logic..
 Installation  
 Clone the repository:
 bash
