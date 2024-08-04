@@ -10,7 +10,7 @@ Technologies Used
 HTML: For the structure of the web page.
 CSS: For styling and responsive design.
 JavaScript: For the BMI calculation logic.
-Installation
+Installation  
 Clone the repository:
 bash
 Copy code
