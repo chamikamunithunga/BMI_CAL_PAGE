@@ -1,5 +1,9 @@
 ![Screenshot 2024-08-09 at 11 47 33 PM](https://github.com/user-attachments/assets/9dc85fac-039f-4a85-9ac8-0c5784f82870)
 
+BMI-CALCULATOR for FITNESS ZONE project 
+---------------------------------------
+
+
 Overview
 BMI_CAL_PAGE is a web application designed to help users calculate their Body Mass Index (BMI). This project includes a BMI calculation function integrated into a user-friendly web page.
 
